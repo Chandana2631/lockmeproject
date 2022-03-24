@@ -1,0 +1,31 @@
+package com.simplilearn.lockme.cmdlineapplication.LockedMeApplication;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+import com.simplilearn.lockme.cmdlineapplication.Login.UserCredentials;
+import com.simplilearn.lockme.cmdlineapplication.Login.Users;
+
+/**
+ * Code for LockedMe.com Command Line Application
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        welcomeScreen();
+    }
+	public static void welcomeScreen() {
+		System.out.println("=========================================");
+		System.out.println("*					*");
+		System.out.println("*   Welcome To LockMe.com		*");
+		System.out.println("*   Your Personal Digital Locker 	*");
+		System.out.println("*					*");
+		System.out.println("=========================================");
+		
+	}
+}
