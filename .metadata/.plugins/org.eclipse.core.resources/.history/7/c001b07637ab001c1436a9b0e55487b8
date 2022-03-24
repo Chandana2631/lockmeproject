@@ -47,7 +47,7 @@ public class App
 				closeApp();
 				break;
 			default :
-				System.out.println("Please select 1,2 or 3");
+				System.out.println("Please select 1,2 and 3");
 				break;
 		}
 		keyboard.close();

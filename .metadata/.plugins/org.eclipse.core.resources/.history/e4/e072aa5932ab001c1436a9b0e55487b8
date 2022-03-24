@@ -47,7 +47,7 @@ public class App
 				closeApp();
 				break;
 			default :
-				System.out.println("Please select 1,2 or 3");
+				System.out.println("Please select 1 Or 2");
 				break;
 		}
 		keyboard.close();
@@ -203,7 +203,7 @@ public class App
 		System.out.println("==========================================");
 		
 		// creates a file object
-        File file = new File("/home/18491a0432qisce/Desktop/LockmeFirstProject/LockedMeApplication/src/main/java/com/simplilearn/lockme/cmdlineapplication/LockedMeApplication/Locker");
+        File file = new File("/home/18491a0432qisce/Desktop/ALockmeFirstProject/LockedMeApplication/src/main/java/com/simplilearn/lockme/cmdlineapplication/LockedMeApplication/Locker");
         // returns an array of all files
         String[] fileList = file.list();
         //Sort the files
