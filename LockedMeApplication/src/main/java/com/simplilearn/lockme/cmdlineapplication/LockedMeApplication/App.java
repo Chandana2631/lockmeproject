@@ -48,6 +48,7 @@ public class App
 				break;
 			default :
 				System.out.println("Please select 1,2 or 3");
+				loginInOptions();
 				break;
 		}
 		keyboard.close();
@@ -91,6 +92,7 @@ public class App
 				break;
 			default :
 				System.out.println("Please select 1,2,3 or 4");
+				moreActions();
 				break;
 		}
 		keyboard.close();
@@ -223,7 +225,7 @@ public class App
     public static void welcomeScreen() {
 		System.out.println("=========================================================");
 		System.out.println("*					                *");
-		System.out.println("*   Welcome To LockMe.com Prototype Application		*");
+		System.out.println("*   Welcome To Chandana's LockMe.com Prototype Application		*");
 		System.out.println("*   Your Personal Digital Locker 	                *");
 		System.out.println("*				                	*");
 		System.out.println("=========================================================");
